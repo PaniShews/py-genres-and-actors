@@ -38,3 +38,5 @@ def main() -> QuerySet:
 
 if __name__ == "__main__":
     main()
+    Actor.objects.values()
+    Genre.objects.values()
